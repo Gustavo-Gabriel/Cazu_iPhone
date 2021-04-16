@@ -7,16 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F15725252629B54800CEC1AE /* HorarioLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15725242629B54800CEC1AE /* HorarioLoader.swift */; };
+		F15725292629B9A000CEC1AE /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15725282629B9A000CEC1AE /* ProgressBar.swift */; };
+		F157252E2629BD1000CEC1AE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157252D2629BD1000CEC1AE /* Colors.swift */; };
+		F15725312629CC6700CEC1AE /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15725302629CC6700CEC1AE /* Scene.swift */; };
+		F1A1CAEA26286BCC000BC3E3 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1CAE926286BCC000BC3E3 /* TaskModel.swift */; };
+		F1A1CAED26286C73000BC3E3 /* TaskStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A1CAEC26286C73000BC3E3 /* TaskStatus.swift */; };
+		F1B817912625C84B0058BE57 /* watchC_planet04.dae in Resources */ = {isa = PBXBuildFile; fileRef = F1B8178A2625C84B0058BE57 /* watchC_planet04.dae */; };
+		F1B817922625C84B0058BE57 /* watchC_planet05.dae in Resources */ = {isa = PBXBuildFile; fileRef = F1B8178B2625C84B0058BE57 /* watchC_planet05.dae */; };
+		F1B817932625C84B0058BE57 /* watchC_planet07.dae in Resources */ = {isa = PBXBuildFile; fileRef = F1B8178C2625C84B0058BE57 /* watchC_planet07.dae */; };
+		F1B817942625C84B0058BE57 /* watchC_planet06.dae in Resources */ = {isa = PBXBuildFile; fileRef = F1B8178D2625C84B0058BE57 /* watchC_planet06.dae */; };
+		F1B817952625C84B0058BE57 /* watchC_planet02.dae in Resources */ = {isa = PBXBuildFile; fileRef = F1B8178E2625C84B0058BE57 /* watchC_planet02.dae */; };
+		F1B817962625C84B0058BE57 /* watchC_planet03.dae in Resources */ = {isa = PBXBuildFile; fileRef = F1B8178F2625C84B0058BE57 /* watchC_planet03.dae */; };
+		F1B817972625C84B0058BE57 /* watchC_planet01.dae in Resources */ = {isa = PBXBuildFile; fileRef = F1B817902625C84B0058BE57 /* watchC_planet01.dae */; };
+		F1B8179B2625CAF50058BE57 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8179A2625CAF50058BE57 /* TaskRowView.swift */; };
 		F1DC4E302625C3880071DF64 /* Cazu_iPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DC4E2F2625C3880071DF64 /* Cazu_iPhoneApp.swift */; };
-		F1DC4E322625C3880071DF64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DC4E312625C3880071DF64 /* ContentView.swift */; };
+		F1DC4E322625C3880071DF64 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DC4E312625C3880071DF64 /* DashboardView.swift */; };
 		F1DC4E342625C3880071DF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DC4E332625C3880071DF64 /* Assets.xcassets */; };
 		F1DC4E372625C3880071DF64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DC4E362625C3880071DF64 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F15725242629B54800CEC1AE /* HorarioLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioLoader.swift; sourceTree = "<group>"; };
+		F15725282629B9A000CEC1AE /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		F157252D2629BD1000CEC1AE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F15725302629CC6700CEC1AE /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		F1A1CAE926286BCC000BC3E3 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		F1A1CAEC26286C73000BC3E3 /* TaskStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStatus.swift; sourceTree = "<group>"; };
+		F1B8178A2625C84B0058BE57 /* watchC_planet04.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = watchC_planet04.dae; sourceTree = "<group>"; };
+		F1B8178B2625C84B0058BE57 /* watchC_planet05.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = watchC_planet05.dae; sourceTree = "<group>"; };
+		F1B8178C2625C84B0058BE57 /* watchC_planet07.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = watchC_planet07.dae; sourceTree = "<group>"; };
+		F1B8178D2625C84B0058BE57 /* watchC_planet06.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = watchC_planet06.dae; sourceTree = "<group>"; };
+		F1B8178E2625C84B0058BE57 /* watchC_planet02.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = watchC_planet02.dae; sourceTree = "<group>"; };
+		F1B8178F2625C84B0058BE57 /* watchC_planet03.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = watchC_planet03.dae; sourceTree = "<group>"; };
+		F1B817902625C84B0058BE57 /* watchC_planet01.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = watchC_planet01.dae; sourceTree = "<group>"; };
+		F1B8179A2625CAF50058BE57 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
 		F1DC4E2C2625C3880071DF64 /* Cazu_iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cazu_iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DC4E2F2625C3880071DF64 /* Cazu_iPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cazu_iPhoneApp.swift; sourceTree = "<group>"; };
-		F1DC4E312625C3880071DF64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1DC4E312625C3880071DF64 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		F1DC4E332625C3880071DF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1DC4E362625C3880071DF64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1DC4E382625C3880071DF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +61,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1A1CAE826286BB9000BC3E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1A1CAE926286BCC000BC3E3 /* TaskModel.swift */,
+				F1A1CAEC26286C73000BC3E3 /* TaskStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1B8177B2625C5B60058BE57 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				F1B817802625C5E40058BE57 /* Data */,
+				F1B8177F2625C5DD0058BE57 /* Domain */,
+				F1B8177E2625C5D60058BE57 /* UI */,
+				F1B8177D2625C5CE0058BE57 /* Shared */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		F1B8177C2625C5BF0058BE57 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F1DC4E2F2625C3880071DF64 /* Cazu_iPhoneApp.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		F1B8177D2625C5CE0058BE57 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F1B8177E2625C5D60058BE57 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F1B817892625C84B0058BE57 /* 3D Models */,
+				F1B817862625C7120058BE57 /* Scenes */,
+				F1B817812625C6130058BE57 /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F1B8177F2625C5DD0058BE57 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F1A1CAE826286BB9000BC3E3 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F1B817802625C5E40058BE57 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F1B817812625C6130058BE57 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F15725242629B54800CEC1AE /* HorarioLoader.swift */,
+				F15725282629B9A000CEC1AE /* ProgressBar.swift */,
+				F157252D2629BD1000CEC1AE /* Colors.swift */,
+				F15725302629CC6700CEC1AE /* Scene.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F1B817862625C7120058BE57 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F1B817992625CAE00058BE57 /* TaskRow */,
+				F1B817872625C7190058BE57 /* Dashboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F1B817872625C7190058BE57 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F1DC4E312625C3880071DF64 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F1B817892625C84B0058BE57 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1B8178A2625C84B0058BE57 /* watchC_planet04.dae */,
+				F1B8178B2625C84B0058BE57 /* watchC_planet05.dae */,
+				F1B8178C2625C84B0058BE57 /* watchC_planet07.dae */,
+				F1B8178D2625C84B0058BE57 /* watchC_planet06.dae */,
+				F1B8178E2625C84B0058BE57 /* watchC_planet02.dae */,
+				F1B8178F2625C84B0058BE57 /* watchC_planet03.dae */,
+				F1B817902625C84B0058BE57 /* watchC_planet01.dae */,
+			);
+			path = "3D Models";
+			sourceTree = "<group>";
+		};
+		F1B817992625CAE00058BE57 /* TaskRow */ = {
+			isa = PBXGroup;
+			children = (
+				F1B8179A2625CAF50058BE57 /* TaskRowView.swift */,
+			);
+			path = TaskRow;
+			sourceTree = "<group>";
+		};
 		F1DC4E232625C3880071DF64 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +190,8 @@
 		F1DC4E2E2625C3880071DF64 /* Cazu_iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				F1DC4E2F2625C3880071DF64 /* Cazu_iPhoneApp.swift */,
-				F1DC4E312625C3880071DF64 /* ContentView.swift */,
+				F1B8177C2625C5BF0058BE57 /* System */,
+				F1B8177B2625C5B60058BE57 /* Layers */,
 				F1DC4E332625C3880071DF64 /* Assets.xcassets */,
 				F1DC4E382625C3880071DF64 /* Info.plist */,
 				F1DC4E352625C3880071DF64 /* Preview Content */,
@@ -127,7 +265,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1DC4E372625C3880071DF64 /* Preview Assets.xcassets in Resources */,
+				F1B817922625C84B0058BE57 /* watchC_planet05.dae in Resources */,
+				F1B817912625C84B0058BE57 /* watchC_planet04.dae in Resources */,
+				F1B817962625C84B0058BE57 /* watchC_planet03.dae in Resources */,
 				F1DC4E342625C3880071DF64 /* Assets.xcassets in Resources */,
+				F1B817942625C84B0058BE57 /* watchC_planet06.dae in Resources */,
+				F1B817952625C84B0058BE57 /* watchC_planet02.dae in Resources */,
+				F1B817972625C84B0058BE57 /* watchC_planet01.dae in Resources */,
+				F1B817932625C84B0058BE57 /* watchC_planet07.dae in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DC4E322625C3880071DF64 /* ContentView.swift in Sources */,
+				F1DC4E322625C3880071DF64 /* DashboardView.swift in Sources */,
+				F157252E2629BD1000CEC1AE /* Colors.swift in Sources */,
+				F1B8179B2625CAF50058BE57 /* TaskRowView.swift in Sources */,
+				F1A1CAEA26286BCC000BC3E3 /* TaskModel.swift in Sources */,
+				F1A1CAED26286C73000BC3E3 /* TaskStatus.swift in Sources */,
 				F1DC4E302625C3880071DF64 /* Cazu_iPhoneApp.swift in Sources */,
+				F15725252629B54800CEC1AE /* HorarioLoader.swift in Sources */,
+				F15725292629B9A000CEC1AE /* ProgressBar.swift in Sources */,
+				F15725312629CC6700CEC1AE /* Scene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

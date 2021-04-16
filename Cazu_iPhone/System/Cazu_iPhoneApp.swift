@@ -11,7 +11,7 @@ import SwiftUI
 struct Cazu_iPhoneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DashboardView()
         }
     }
 }
